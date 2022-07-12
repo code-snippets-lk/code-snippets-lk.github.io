@@ -7,6 +7,6 @@ url: ""
 twitter_username: evokeapps
 github_username: evokeapps
 
-theme: minima
+theme: merlot
 plugins:
   - jekyll-feed
