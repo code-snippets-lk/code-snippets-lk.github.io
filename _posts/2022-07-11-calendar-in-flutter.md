@@ -104,3 +104,7 @@ class MonthView extends StatelessWidget {
   }
 }
 ```
+
+Feel free to use it in your next project!
+
+### Happy coding!

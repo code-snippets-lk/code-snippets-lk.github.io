@@ -34,4 +34,4 @@ Output:
 ];
 ```
 
-Happy coding!
+### Happy coding!

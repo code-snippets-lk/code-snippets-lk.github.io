@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to deploy a Flask powered Python REST API on Vercel for free?"
-date: 2022-07-12 06:00:00 +0530
+date: 2022-07-12 12:00:00 +0530
 categories: python flask vercel
 ---
 We all love free tools and platforms to get started on coding or to prototype.
