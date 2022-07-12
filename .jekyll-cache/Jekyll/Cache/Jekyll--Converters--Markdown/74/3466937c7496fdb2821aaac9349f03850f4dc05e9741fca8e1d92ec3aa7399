@@ -1,0 +1,27 @@
+I"B<h1 id="generate-month-names-with-localization">Generate month names with localization</h1>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">months</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">.</span><span class="k">from</span><span class="p">({</span> <span class="na">length</span><span class="p">:</span> <span class="mi">12</span> <span class="p">},</span> <span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">null</span><span class="p">).</span><span class="nx">toLocaleDateString</span><span class="p">(</span><span class="dl">"</span><span class="s2">en</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">month</span><span class="p">:</span> <span class="dl">"</span><span class="s2">short/long</span><span class="dl">"</span><span class="p">,</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>will log as</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span>
+  <span class="dl">"</span><span class="s2">Jan</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Feb</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Mar</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Apr</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">May</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Jun</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Jul</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Aug</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Sep</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Oct</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Nov</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Dec</span><span class="dl">"</span><span class="p">,</span>
+<span class="p">];</span>
+</code></pre></div></div>
+:ET
