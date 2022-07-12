@@ -3,6 +3,7 @@ layout: post
 title: "How to generate months of the year with localization in Javascript?"
 date: 2022-07-12 05:10:08 +0530
 categories: javascript
+tags: javascript
 ---
 
 If you build a flutter app with swipe gestures for linux, it won't work by default. To make it work, you have to specify a custom scroll behavior as the following snippet.

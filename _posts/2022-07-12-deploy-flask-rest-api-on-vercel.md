@@ -2,7 +2,8 @@
 layout: post
 title: "How to deploy a Flask powered Python REST API on Vercel for free?"
 date: 2022-07-12 12:00:00 +0530
-categories: python flask vercel
+categories: python
+tags: python flask vercel cors
 ---
 We all love free tools and platforms to get started on coding or to prototype.
 
@@ -56,7 +57,7 @@ flask_cors
 
 Now we are ready to deploy. You can either use the Vercel CLI or Github for deploying. For this example we will use vercel-cli. Configure it using the instructions given [here](https://vercel.com/docs/concepts/deployments/overview#vercel-cli).
 
-Just type "vercel" on a terminal inside the same directory. In a few seconds your project will be live and you can actually preview the building process and output on the Vercel [dashboard](https://vercel.com/dashboard)
+Just type "vercel" (or "vercel --prod" for production release) on a terminal inside the same directory. In a few seconds your project will be live and you can actually preview the building process and output on the Vercel [dashboard](https://vercel.com/dashboard).
 
 However, there are some [limitations](https://vercel.com/docs/concepts/limits/overview) for the invocations of functions using the Hobby plan.
 
