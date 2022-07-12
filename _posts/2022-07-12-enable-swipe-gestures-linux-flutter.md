@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Month names with localization in Javascript"
-date: 2022-07-12 05:10:08 +0530
-categories: javascript
+title: "How to enable swipe gestures in a flutter app on desktop (Linux, OS X, Windows?"
+date: 2022-07-12 06:00:00 +0530
+categories: flutter
 ---
 
-# Generate month names with localization
+Here is a code snippet to generate months of the year with internationalization. (Change "en" and "short" to the required value)
 
 ```javascript
 const months = Array.from({ length: 12 }, (e, i) => {
   return new Date(null, i + 1, null).toLocaleDateString("en", {
-    month: "short/long",
+    month: "short",
   });
 });
 ```
@@ -33,3 +33,5 @@ will log as
   "Dec",
 ];
 ```
+
+Happy coding!
