@@ -15,7 +15,7 @@ const months = Array.from({ length: 12 }, (e, i) => {
 });
 ```
 
-will log as
+Output:
 
 ```javascript
 [
