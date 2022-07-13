@@ -2,8 +2,6 @@
 
 .hero-cover { min-height: 25vh; display: flex; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.75); }
 
-.highlight { margin-bottom: 1rem; padding: 0.5rem; border-radius: 3px; background: whitesmoke; }
-
-.highlighter-rouge .highlight { background: whitesmoke; }
+.highlight { margin-bottom: 1rem; padding: 0.5rem; border-radius: 3px; font-size: 14px; font-family: "Courier New", Courier, monospace !important; background-color: whitesmoke; border: none; }
 
 /*# sourceMappingURL=styles.css.map */
