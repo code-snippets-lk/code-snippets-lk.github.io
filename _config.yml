@@ -1,9 +1,0 @@
-title: Code Snippets LK
-author:
-  name: Evoke Apps LLC
-  email: evokeapps@yahoo.com
-theme: minimalist
-markdown: kramdown
-highlighter: rouge
-plugins:
-  - jekyll-seo-tag

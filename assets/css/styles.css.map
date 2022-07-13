@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss"
+	],
+	"sourcesContent": [
+		".hero {\n  background-image: url(\"https://www.chathamhouse.org/sites/default/files/styles/12_6_media_huge/public/2020-02/20141209Cyber.jpg?h=33a87196&itok=8ULOP_yX\");\n  background-position: center;\n  background-size: cover;\n}\n\n.hero-cover {\n  min-height: 25vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(0, 0, 0, 0.75);\n}\n\n.highlight {\n  margin-bottom: 1rem;\n  padding: 0.5rem;\n  border-radius: 3px;\n  background: whitesmoke;\n  .highlighter-rouge & {\n    background: whitesmoke;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC,EACJ,gBAAgB,EAAE,wIAAwI,EAC1J,mBAAmB,EAAE,MAAM,EAC3B,eAAe,EAAE,KAAK,GACvB;;AAED,AAAA,WAAW,CAAC,EACV,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,EACnB,eAAe,EAAE,MAAM,EACvB,gBAAgB,EAAE,mBAAmB,GACtC;;AAED,AAAA,UAAU,CAAC,EACT,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,MAAM,EACf,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,UAAU,GAIvB;;AAHC,AAAA,kBAAkB,CALpB,UAAU,CAKa,EACnB,UAAU,EAAE,UAAU,GACvB"
+}
