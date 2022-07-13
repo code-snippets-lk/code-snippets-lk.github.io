@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col">
+    <div class="mb-5 py-5 border-bottom">
+      <div class="h1 text-success fw-bold">{{page.title}}</div>
+      {%- for tag in page.tags -%}
+      <span class="badge bg-success me-2">{{tag}}</span>
+      {%- endfor -%}
+    </div>
+    <div class="fs-5 mb-5">{{ page.content }}</div>
+  </div>
+</div>

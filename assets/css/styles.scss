@@ -1,0 +1,26 @@
+---
+---
+
+.hero {
+  background-image: url("https://www.chathamhouse.org/sites/default/files/styles/12_6_media_huge/public/2020-02/20141209Cyber.jpg?h=33a87196&itok=8ULOP_yX");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-cover {
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.highlight {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: whitesmoke;
+  .highlighter-rouge & {
+    background: whitesmoke;
+  }
+}

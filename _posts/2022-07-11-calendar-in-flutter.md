@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "How to generate a simple calendar in Google Flutter?"
-date: 2022-07-11 06:00:00 +0530
+date: 2022-07-11
 categories: flutter
 tags: flutter dart
 ---
 
 Here is a simple code snippet to generate a simple calendar widget in Google Flutter.
 
-```dart
+~~~ dart
 import 'package:flutter/material.dart';
 import 'package:slcalendar/domain/calendar_event.dart';
 
@@ -104,7 +104,7 @@ class MonthView extends StatelessWidget {
     );
   }
 }
-```
+~~~
 
 Feel free to use it in your next project!
 

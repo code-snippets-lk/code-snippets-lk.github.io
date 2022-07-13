@@ -1,12 +1,9 @@
-title: Code Snippets
-email: evokeapps@yahoo.com
-description: >-
-  Code snippets for programmers by programmers.
-baseurl: ""
-url: ""
-twitter_username: evokeapps
-github_username: evokeapps
-
-theme: minima
+title: Code Snippets LK
+author:
+  name: Evoke Apps LLC
+  email: evokeapps@yahoo.com
+theme: minimalist
+markdown: kramdown
+highlighter: rouge
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
